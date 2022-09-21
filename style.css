@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+	padding: 30px 0;
+    display: block;
+}
+
+header div .container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+header .container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header nav a {
+	color: #AAA;
+	text-decoration: none;
+	margin-right: 20px;
+}
+header nav a:hover {
+	color: #FFF;
+}
+
+body{
+background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%), url(ford.jpg);
+background-position: center center;
+	background-size: cover;
+}
+img{
+    border: 1px solid #ddd;
+border-radius: 4px;
+    padding: 5px;
+width: 150px;
+}
+.about-1{
+    margin: 30px;
+    padding: 5px;
+}
+.about-1 h1{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+.about-1 p{
+    text-align: center;
+    padding: 3px;
+    color: #fff;
+}
+.about-item{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: white;
+    padding: 80px 30px;
+    box-shadow: 0 0 9px rgba(0,0,0.6);
+}
+
+.about-item i{
+    font-size: 43px;
+    margin: 0;
+}
+
+.about-item h3{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.about-item hr{
+    width: 46px;
+    height: 3px;
+    background-color: #5fbff9;
+    margin: 0 auto;
+    border: none;
+    text-align: center;
+}
+
+.about-item{
+    background-color: #3a6179;
+}
+.about-item i,
+.about-item h3,
+.about-item p{
+    color: #fff;
+}
+.about-item:hover hr{
+    background-color: rgb(180, 8, 8);
+}
+
+.about-item i{
+    transform: translateY(-20px);
+}
+.about-item  i,
+.about-item  h3,
+.about-item  hr{
+    transition: all 400ms ease-in-out;
+}
+
+footer{
+    background: #212226;
+    padding: 20px;
+}
+footer p{
+    color: #fff;
+}
+h2{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
